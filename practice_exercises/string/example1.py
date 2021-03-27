@@ -24,3 +24,18 @@ count = 0
 for string in findLengthWithOutLen:
     count = count+1
 print(count)
+#output =  80
+
+
+#using def function
+def findLength(string):
+
+    #count set to 0
+    count = 0
+
+    for i in string:
+        count = count + 1
+    return count
+
+#pass the string as parameter
+print(findLength(findLengthWithOutLen))
